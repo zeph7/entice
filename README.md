@@ -18,6 +18,8 @@ Python 3 - version 3.6.5
                   random - required for selection of random prime no. in RSA
                   time - required to sleep the time
                   sys - required for handling system exit
+                  
+![](https://www.pubnub.com/wp-content/uploads/2017/03/chat-app-in-terminal-with-python.png)
        
 
 ## How to Use?
@@ -35,20 +37,20 @@ Server script will show the encrypted messages shared among the 2 clients.
 
 ## Screenshots
 
-Server Sript
+### Server Sript
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img1.png)
 
-Clinet 1
+### Clinet 1
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img2.png)
 
-Client 2
+### Client 2
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img3.png)
 
 
-Server after few conversation
+## Server after few conversation
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img4.png)
 
