@@ -1,6 +1,7 @@
 # Entice
 An Encrypted Chat Application developed in Python
 
+![](https://s22908.pcdn.co/wp-content/uploads/2014/09/more-encrypted-chat-apps.jpg)
 
 ## What its for?
 
@@ -10,13 +11,13 @@ Here, I have developed an encrypted chat application so that 2 clients can chat 
 ## Requirments
 
 Python 3 - version 3.6.5
-  ### module - 
-                  socket: required for networking
-                  threading: required for simultaneous chatting 
-                  tkinter: required for GUI
-                  random: required for selection of random prime no. in RSA
-                  time: required to sleep the time
-                  sys: required for handling system exit
+### modules :
+                  socket - required for networking
+                  threading - required for simultaneous chatting 
+                  tkinter - required for GUI
+                  random - required for selection of random prime no. in RSA
+                  time - required to sleep the time
+                  sys - required for handling system exit
        
 
 ## How to Use?
@@ -34,20 +35,20 @@ Server script will show the encrypted messages shared among the 2 clients.
 
 ## Screenshots
 
-**Server Sript
+Server Sript
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img1.png)
 
-**Clinet 1
+Clinet 1
 
-![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img12.png)
+![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img2.png)
 
-**Client 2
+Client 2
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img3.png)
 
 
-**Server after few conversation
+Server after few conversation
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img4.png)
 
