@@ -1,7 +1,9 @@
 # Entice
-An Encrypted Chat Application developed in Python
 
-![](https://s22908.pcdn.co/wp-content/uploads/2014/09/more-encrypted-chat-apps.jpg)
+An Encrypted Chat Application developed in Python
+ 
+![](https://www.pubnub.com/wp-content/uploads/2017/03/chat-app-in-terminal-with-python.png)
+
 
 ## What its for?
 
@@ -19,7 +21,6 @@ Python 3 - version 3.6.5
                   time - required to sleep the time
                   sys - required for handling system exit
                   
-![](https://www.pubnub.com/wp-content/uploads/2017/03/chat-app-in-terminal-with-python.png)
        
 
 ## How to Use?
@@ -35,25 +36,30 @@ And without server interviewing your chats!!
 Server script will show the encrypted messages shared among the 2 clients.
 
 
-## Screenshots
+# Screenshots
 
-### Server Sript
+## Server Sript
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img1.png)
 
-### Clinet 1
+## Client_1 Script
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img2.png)
 
-### Client 2
+## Client_2 Script
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img3.png)
-
 
 ## Server after few conversation
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img4.png)
 
+
+# RSA (Rivest–Shamir–Adleman)
+
+RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and it is different from the decryption key which is kept secret (private). In RSA, this asymmetry is based on the practical difficulty of the factorization of the product of two large prime numbers, the "factoring problem". The acronym RSA is made of the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who first publicly described the algorithm in 1978. Clifford Cocks, an English mathematician working for the British intelligence agency Government Communications Headquarters (GCHQ), had developed an equivalent system in 1973, but this was not declassified until 1997.
+
+![](https://s22908.pcdn.co/wp-content/uploads/2014/09/more-encrypted-chat-apps.jpg)
 
 # Licence
 
