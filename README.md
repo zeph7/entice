@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/ashish7zeph/Entice.svg?style=for-the-badge)](https://github.com/ashish7zeph/Entice/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/ashish7zeph/Entice.svg?style=for-the-badge)](https://github.com/ashish7zeph/Entice/graphs/contributors)
 [![GitHub forks](https://img.shields.io/github/forks/ashish7zeph/Entice.svg?style=for-the-badge)](https://github.com/ashish7zeph/Entice/network/members)
-[![](https://img.shields.io/github/stars/ashish7zeph/Entice.svg?colorB=green&style=for-the-badge)]()
+[![GitHub stars](https://img.shields.io/github/stars/ashish7zeph/Entice.svg?colorB=green&style=for-the-badge)](https://github.com/ashish7zeph/Entice/stargazers)
 
 [![Made with python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
@@ -67,27 +67,43 @@ Server script will show the encrypted messages shared among the 2 clients.
 
 Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while other socket reaches out to the other to form a connection. Server forms the listener socket while client reaches out to the server.
 They are the real backbones behind web browsing. In simpler terms there is a server and a client. 
-An example of sockect programming is given below.
+
+The code for creating a server socket in sockect programming used in this project is given below:
 
 ```python3
-      HOST = gethostbyname(gethostname())     # get host IP
-      PORT = 42000
-      BUFFER_SIZE = 1024   # buffer size of receiver
-      ADDRESS = (HOST, PORT)  # servers socket address
+     HOST = gethostbyname(gethostname())     # get host IP
+     PORT = 42000
+     BUFFER_SIZE = 1024   # buffer size of receiver
+     ADDRESS = (HOST, PORT)  # servers socket address
 
-      SERVER = socket(AF_INET, SOCK_STREAM)   # create socket object
-      SERVER.bind(ADDRESS)    # bind socket IP and port no.
+     SERVER = socket(AF_INET, SOCK_STREAM)   # create socket object
+     SERVER.bind(ADDRESS)    # bind socket IP and port no.
 
-      SERVER.listen(2)
-      print('Server IP: ', HOST)
-      print("Waiting for connection...")
-      accept_incoming_connections()
-      accept_incoming_connections()
+     SERVER.listen(2)
+     print('Server IP: ', HOST)
+     print("Waiting for connection...")
+     accept_incoming_connections()
+     accept_incoming_connections()
+```
+
+The code for connecting a client socket with server socket in sockect programming used in this project is given below:
+
+```python3
+    HOST = input('Enter host: ')
+    PORT = int(input('Enter port: '))
+    NAME = input('Enter your name: ')
+    BUFFER_SIZE = 1024
+    ADDRESS = (HOST, PORT)
+
+    CLIENT = socket(AF_INET, SOCK_STREAM)    # client socket object
+    CLIENT.connect(ADDRESS) # to connect to the server socket address
 ```
 
 # RSA (Rivest–Shamir–Adleman)
 
 RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and it is different from the decryption key which is kept secret (private). In RSA, this asymmetry is based on the practical difficulty of the factorization of the product of two large prime numbers, the "factoring problem". The acronym RSA is made of the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who first publicly described the algorithm in 1978. Clifford Cocks, an English mathematician working for the British intelligence agency Government Communications Headquarters (GCHQ), had developed an equivalent system in 1973, but this was not declassified until 1997.
+
+A key generation function code used in this project is given below:
 
 ```python3
     def key_generator():
