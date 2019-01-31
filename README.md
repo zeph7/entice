@@ -1,16 +1,13 @@
 # Entice - Chat app
 
-![](https://img.shields.io/github/license/ashish7zeph/Entice.svg?style=for-the-badge)
-![](https://img.shields.io/github/contributors/ashish7zeph/Entice.svg?style=for-the-badge)
-
-![](https://img.shields.io/pypi/pyversions/django.svg?style=for-the-badge)
-
-An Encrypted Chat Application developed in Python
-
+[![](https://img.shields.io/github/license/ashish7zeph/Entice.svg?style=for-the-badge)](https://github.com/ashish7zeph/Entice/blob/master/LICENSE)
+[![](https://img.shields.io/github/contributors/ashish7zeph/Entice.svg?style=for-the-badge)](https://github.com/ashish7zeph/Entice/graphs/contributors)
 
 ## Overview
 
-Here, I have developed an encrypted chat application so that 2 clients can chat with each other, thought a connection with server. But the server is unable to decypher the chat texts among the 2 clients. Its developed by the use of Socket Programming in Python, with encryption done by RSA Encryption ALgorithm.
+An Encrypted Chat Application developed in Python
+
+This is an encrypted chat application so that 2 clients can chat with each other via LAN or Wifi hotspot, thought a connection with server. But the server is unable to decypher the chat texts among the 2 clients. Its developed by the use of Socket Programming in Python, with encryption done by RSA Encryption ALgorithm.
 
 
 ## Requirments
@@ -75,4 +72,4 @@ RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and
 
 # Licence
 
-Licensed under the MIT License
+Licensed under the [MIT License](https://github.com/ashish7zeph/Entice/blob/master/LICENSE)
