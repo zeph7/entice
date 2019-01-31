@@ -1,11 +1,14 @@
-# Entice
+# Entice - Chat app
+
+![](https://img.shields.io/github/license/ashish7zeph/Entice.svg?style=for-the-badge)
+![](https://img.shields.io/github/contributors/ashish7zeph/Entice.svg?style=for-the-badge)
+
+![](https://img.shields.io/pypi/pyversions/django.svg?style=for-the-badge)
 
 An Encrypted Chat Application developed in Python
- 
-![](https://www.pubnub.com/wp-content/uploads/2017/03/chat-app-in-terminal-with-python.png)
 
 
-## What its for?
+## Overview
 
 Here, I have developed an encrypted chat application so that 2 clients can chat with each other, thought a connection with server. But the server is unable to decypher the chat texts among the 2 clients. Its developed by the use of Socket Programming in Python, with encryption done by RSA Encryption ALgorithm.
 
@@ -23,7 +26,7 @@ Python 3 - version 3.6.5
                   
        
 
-## How to Use?
+## Setup
 
 1. Firstly, run the server script (Server.py) on a system, to be made a server that is in connection with the 2 clients.
 2. Secondly, run the first client script (client_1.py) on another system, here put the IP of the server that is shown on server console and alse put the Port of the server, that is fixed in the server script to 42000, finally enter your name, e.g.-Zephyr.
@@ -41,7 +44,7 @@ Server script will show the encrypted messages shared among the 2 clients.
 ## Server Sript :
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img1.png)
-
+ 
 ## Client_1 Script : Zephyr
 
 ![](https://github.com/ashish7zeph/Entice/blob/master/screenshot/img2.png)
